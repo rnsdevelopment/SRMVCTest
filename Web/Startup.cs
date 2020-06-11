@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Web.Classes;
 using Web.Interfaces;
+using Web.Utilities;
 
 namespace Web
 {
@@ -33,6 +34,13 @@ namespace Web
             services.AddScoped<ITenantService, TenantService>();
             services.AddSingleton<ITenantIdentificationService, HostTenantIdentificationService>();
 
+            services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromSeconds(10);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
+
             services.Configure<RazorViewEngineOptions>(options =>
             {
                 options.ViewLocationExpanders.Add(new TenantViewLocationExpander());
@@ -40,7 +48,7 @@ namespace Web
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IServiceProvider svp)
         {
             if (env.IsDevelopment())
             {
@@ -52,12 +60,20 @@ namespace Web
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            IHttpContextAccessor accessor = svp.GetService<IHttpContextAccessor>();
+            UserSession.SetHttpContextAccessor(accessor);
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseSession();
+
+            Core.Data.Connection.ConnectionString = Helper.Connection(Configuration);
 
             app.UseEndpoints(endpoints =>
             {

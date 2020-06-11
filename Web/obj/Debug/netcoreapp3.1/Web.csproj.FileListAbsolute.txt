@@ -121,7 +121,6 @@ C:\Users\Stuart\source\repos\rnsdevelopment\SRMVCTest\Web\obj\Debug\netcoreapp3.
 C:\Users\Stuart\source\repos\rnsdevelopment\SRMVCTest\Web\obj\Debug\netcoreapp3.1\Web.RazorCoreGenerate.cache
 C:\Users\Stuart\source\repos\rnsdevelopment\SRMVCTest\Web\obj\Debug\netcoreapp3.1\Razor\Views\Company1\Home\Index.cshtml.g.cs
 C:\Users\Stuart\source\repos\rnsdevelopment\SRMVCTest\Web\obj\Debug\netcoreapp3.1\Razor\Views\Company1\Products\Index.cshtml.g.cs
-C:\Users\Stuart\source\repos\rnsdevelopment\SRMVCTest\Web\obj\Debug\netcoreapp3.1\Razor\Views\Company2\Privacy.cshtml.g.cs
 C:\Users\Stuart\source\repos\rnsdevelopment\SRMVCTest\Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Stuart\source\repos\rnsdevelopment\SRMVCTest\Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Stuart\source\repos\rnsdevelopment\SRMVCTest\Web\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
@@ -140,3 +139,6 @@ C:\Users\Stuart\source\repos\rnsdevelopment\SRMVCTest\Web\obj\Debug\netcoreapp3.
 C:\Users\Stuart\source\repos\rnsdevelopment\SRMVCTest\Web\obj\Debug\netcoreapp3.1\Web.dll
 C:\Users\Stuart\source\repos\rnsdevelopment\SRMVCTest\Web\obj\Debug\netcoreapp3.1\Web.pdb
 C:\Users\Stuart\source\repos\rnsdevelopment\SRMVCTest\Web\obj\Debug\netcoreapp3.1\Web.genruntimeconfig.cache
+C:\Users\Stuart\source\repos\rnsdevelopment\SRMVCTest\Web\obj\Debug\netcoreapp3.1\Razor\Views\Company2\Home\Privacy.cshtml.g.cs
+C:\Users\Stuart\source\repos\rnsdevelopment\SRMVCTest\Web\bin\Debug\netcoreapp3.1\appsettings.Production.json
+C:\Users\Stuart\source\repos\rnsdevelopment\SRMVCTest\Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\NavBarItems\Default.cshtml.g.cs
