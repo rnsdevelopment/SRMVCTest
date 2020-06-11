@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rowie\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Web\\Web.csproj": {}
+    "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rowie\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Core\\Core.csproj": {
+    "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rowie\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Rowie\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Rowie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rowie\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Stuart\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Rowie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Stuart\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -94,20 +91,17 @@
         }
       }
     },
-    "C:\\Users\\Rowie\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Web\\Web.csproj": {
+    "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rowie\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\Rowie\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Web\\Web.csproj",
-        "packagesPath": "C:\\Users\\Rowie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rowie\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Web\\obj\\",
+        "projectPath": "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Web\\Web.csproj",
+        "packagesPath": "C:\\Users\\Stuart\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Web\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Rowie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Stuart\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -120,8 +114,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Rowie\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Rowie\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Core\\Core.csproj"
+              "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Core\\Core.csproj"
               }
             }
           }
