@@ -38,13 +38,14 @@ namespace Web.Classes
 
             foreach (string location in viewLocations)
             {
-                //string loc = location.Replace("{0}", this._tenant + "/{0}");
-                string loc = location.Replace("{1}", this._tenant + "/{1}");
+                string loc = location.Replace("{0}", this._tenant + "/{0}");
+                string loc2 = location.Replace("{1}", this._tenant + "/{1}");
 
                 //yield return "/Pages/{1}/Company1/index.cshtml";
                 //yield return location.Replace("{1}", this._tenant + "/{1}");
 
                 yield return loc;
+                yield return loc2;
                 yield return location;
 
             }

@@ -4,4 +4,11 @@
 @{
 }
 
+@inject Microsoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine ViewEngine
+<pre>@string.Join("\n", ViewEngine
+    .FindView(ViewContext, "" + 
+        (ViewData.ModelMetadata.TemplateHint ?? ViewData.ModelMetadata.DataTypeName ?? ViewData.ModelMetadata.ModelType.Name), isMainPage: false)
+    .SearchedLocations)</pre>
+
+
 <h1>Products - Company 1</h1>

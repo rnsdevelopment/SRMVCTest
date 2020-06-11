@@ -11,11 +11,11 @@ using Web.Models;
 
 namespace Web.Controllers
 {
-    public class ProductsController : BaseController
+    public class ProductsController : Controller
     {
         private readonly ILogger<ProductsController> _logger;
 
-        public ProductsController(ILogger<ProductsController> logger, ITenantService service) : base(service)
+        public ProductsController(ILogger<ProductsController> logger)
         {
 
             _logger = logger;
@@ -23,7 +23,6 @@ namespace Web.Controllers
 
         public IActionResult Index()
         {
-            var tenant = base.CurrentTennat;
             return View();
         }
 
