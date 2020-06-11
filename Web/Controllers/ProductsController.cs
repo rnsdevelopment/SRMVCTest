@@ -5,21 +5,25 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Web.BaseClasses;
+using Web.Interfaces;
 using Web.Models;
 
 namespace Web.Controllers
 {
-    public class ProductsController : Controller
+    public class ProductsController : BaseController
     {
         private readonly ILogger<ProductsController> _logger;
 
-        public ProductsController(ILogger<ProductsController> logger)
+        public ProductsController(ILogger<ProductsController> logger, ITenantService service) : base(service)
         {
+
             _logger = logger;
         }
 
         public IActionResult Index()
         {
+            var tenant = base.CurrentTennat;
             return View();
         }
 
