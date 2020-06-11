@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "praTno5qb7Jt27Q9WS3dT0l22GDCSg72kL2MIuXV/mOL2/LkWOWKI/3BpHo6ojfXGEwHKFA1ina8K3oxkBxQEQ==",
+  "dgSpecHash": "4ofIV9efUl5r8+W3fu3sRCnHTevrY5NpvBk74FqgzWEg6ZVfHJ4xHaEzoJ3dblFctizz5C9cnUgCLi1xmhbb/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stuart\\source\\repos\\rnsdevelopment\\SRMVCTest\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stuart\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\Stuart\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Stuart\\source\\repos\\rnsdevelopment\\SRMVCTest\\Web\\Web.csproj": {}
+    "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Stuart\\source\\repos\\rnsdevelopment\\SRMVCTest\\Core\\Core.csproj": {
+    "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stuart\\source\\repos\\rnsdevelopment\\SRMVCTest\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Stuart\\source\\repos\\rnsdevelopment\\SRMVCTest\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Stuart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stuart\\source\\repos\\rnsdevelopment\\SRMVCTest\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Stuart\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -91,14 +91,14 @@
         }
       }
     },
-    "C:\\Users\\Stuart\\source\\repos\\rnsdevelopment\\SRMVCTest\\Web\\Web.csproj": {
+    "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stuart\\source\\repos\\rnsdevelopment\\SRMVCTest\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\Stuart\\source\\repos\\rnsdevelopment\\SRMVCTest\\Web\\Web.csproj",
+        "projectPath": "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\Stuart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stuart\\source\\repos\\rnsdevelopment\\SRMVCTest\\Web\\obj\\",
+        "outputPath": "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Stuart\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -114,8 +114,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Stuart\\source\\repos\\rnsdevelopment\\SRMVCTest\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Stuart\\source\\repos\\rnsdevelopment\\SRMVCTest\\Core\\Core.csproj"
+              "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Stuart\\Source\\Repos\\rnsdevelopment\\SRMVCTest\\Core\\Core.csproj"
               }
             }
           }
